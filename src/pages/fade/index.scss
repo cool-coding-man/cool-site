@@ -1,0 +1,11 @@
+.container {
+  height: 100vh;
+  background: #cecece;
+  .wrapper {
+    transform: scaleX(0.05);
+    height: 100%;
+    background: #222222;
+    color: white;
+    font-weight: 900;
+  }
+}
