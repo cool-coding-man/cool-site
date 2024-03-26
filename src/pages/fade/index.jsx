@@ -19,7 +19,8 @@ const App = () => {
       {
         scale: 1,
         duration: 1.2,
-        ease: "power4.in",
+        delay: 0.3,
+        ease: "power3.inOut",
       },
       "<"
     );
@@ -40,6 +41,7 @@ const App = () => {
   return (
     <section className="container">
       <div className="wrapper" ref={containerRef}>
+        {/* <h1>Title</h1> */}
         <img ref={imgRef} src={img} />
       </div>
     </section>
