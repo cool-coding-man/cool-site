@@ -1,7 +1,7 @@
 import { useEffect, useRef } from "react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
-import "./Scroll.module.scss";
+import styles from "./Scroll.module.scss";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -44,10 +44,10 @@ const Scroll = () => {
   }, []);
 
   return (
-    <div className="container">
+    <div className={styles.container}>
       <section>
         <div className="blank" />
-        <div ref={textRef} className="h1_wrapper">
+        <div ref={textRef} className={styles.h1_wrapper}>
           <h1 ref={text1}>text1</h1>
           <h1 ref={text2}>text2</h1>
         </div>

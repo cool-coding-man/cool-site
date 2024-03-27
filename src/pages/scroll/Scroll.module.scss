@@ -1,5 +1,7 @@
-.h1_wrapper {
-  display: flex;
-  justify-content: center;
-  gap: 20px;
+.container {
+  .h1_wrapper {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
 }

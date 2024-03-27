@@ -1,7 +1,7 @@
 import { useEffect, useRef } from "react";
 import gsap from "gsap";
 import img from "../../assets/img/5.png";
-import "./Fade.module.scss";
+import styles from "./Fade.module.scss";
 
 const Fade = () => {
   const containerRef = useRef();
@@ -39,8 +39,8 @@ const Fade = () => {
   }, []);
 
   return (
-    <section className="container">
-      <div className="wrapper" ref={containerRef}>
+    <section className={styles.container}>
+      <div className={styles.wrapper} ref={containerRef}>
         {/* <h1>Title</h1> */}
         <img ref={imgRef} src={img} />
       </div>
