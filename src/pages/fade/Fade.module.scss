@@ -1,6 +1,7 @@
 .container {
   height: 100vh;
   background: #cecece;
+  overflow: hidden;
   .wrapper {
     transform: scale(0.05, 0.95);
     transform-origin: center center;
